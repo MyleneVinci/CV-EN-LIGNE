@@ -1,0 +1,29 @@
+.Sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(220, 231, 243);
+    height: 100%;
+}
+
+.sidebar-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.sidebar-contents h4 {
+    text-align: center;
+    margin: 8px;
+}
+.sidebar-contents p, a {
+    text-align: center;
+    margin: 2px;
+}
+
+.sidebar-contents a {
+    text-decoration: none;
+    color: inherit;
+}
+
+

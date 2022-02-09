@@ -1,0 +1,32 @@
+.Main-container {
+    height: 100%;
+    background:linear-gradient(20deg, white 75%, rgb(176, 210, 245) 30%) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.cursus-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.title-container {
+    margin: 80px;
+    text-align: center;
+}
+
+.h3-title, .experiencies-container, .training-container {
+    text-align: center;
+}
+
+.experiencies-container {
+    width: 50%;
+}
+
+.training-container {
+    width: 50%;
+}
+
+

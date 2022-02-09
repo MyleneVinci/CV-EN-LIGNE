@@ -1,0 +1,28 @@
+.Contents {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(252, 252, 252);
+    padding: 10px;
+    min-width: min-content ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    word-break: break-word;
+}
+
+.Contents h4, h5 {
+    margin: 5px;
+}
+
+.Contents h5 {
+    margin-bottom: 15px;
+}
+
+.Contents p, a {
+    margin: 0;
+}
+
