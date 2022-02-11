@@ -1,14 +1,22 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width:800px) {
     .cursus-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         }
-}
+    
+    .experiencies-container {
+        border-right: 1px solid var(--contents-border-color);
+    }
+
+    .separator-line {
+        border-right: 1px var(--contents-border-color);
+    }
+    }
 
 .Main-container {
     height: 100%;
-    background:linear-gradient(20deg, white 75%, var(--main-bg-color) 30%) ;
+    background:linear-gradient(20deg, var(--main-bg-color) 20%,white 20% 80%, var(--main-bg-color) 20%) ;
     display: flex;
     flex-direction: column;
 }
@@ -21,14 +29,12 @@
 
 }
 
-
 .h3-title, .experiencies-container, .training-container {
     text-align: center;
 }
 
 .h3-title {
     font-size: var(--font-size-h3);
-
 }
 
 .experiencies-container {
@@ -37,6 +43,14 @@
 
 .training-container {
     width: 100%;
+}
+
+@media screen and (max-width:800px) {
+.separator-line {
+    margin: 0 auto 20px auto;
+    width: 80%;
+    border-bottom: 1px solid var(--contents-border-color);
+}
 }
 
 

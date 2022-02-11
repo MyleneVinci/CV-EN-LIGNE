@@ -16,6 +16,7 @@ const Main = () => {
                 <h3 className='h3-title'>EXPERIENCE PROFESSIONNELLE</h3>
                 <Experiencies />
             </div>
+            <div className="separator-line"></div>
             <div className='training-container'>
                 <h3 className='h3-title'>FORMATION</h3>
                 <Training />
