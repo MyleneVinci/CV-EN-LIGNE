@@ -9,7 +9,7 @@ const Main = () => {
     return (
     <div className='Main-container'>
         <div className='title-container'>
-            <h1 className='h1-title'>Développeur web et web mobile junior</h1>
+            <h1>Développeur web et web mobile junior</h1>
         </div>
         <div className='cursus-container'>
             <div className='experiencies-container'>

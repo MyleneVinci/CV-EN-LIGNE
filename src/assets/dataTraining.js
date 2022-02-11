@@ -1,6 +1,6 @@
 const dataTraining = [
     {
-    title: "Développeur web et web mobile junior",
+    title: "Développeur web et web mobile",
     location: "Wild Code School",
     date: "novembre 2021 - avril 2022",
     description: "Préparation au Titre RNCP développeur web et web mobile. Apprentissage des bases des langages de programmation et technologies associées, méthodes agiles (SCRUM)."

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(220, 231, 243);
+    background-color: var(--sidebar-bg-color);
     height: 100%;
 }
 
@@ -12,18 +12,14 @@
     margin: 30px;
 }
 
-.sidebar-contents h4 {
+.h4-title {
     text-align: center;
     margin: 8px;
+    font-size: var(--font-size-h4);
 }
 .sidebar-contents p, a {
     text-align: center;
     margin: 2px;
-}
-
-.sidebar-contents a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .slide-icon {
@@ -31,3 +27,6 @@
     height: 80px;
 }
 
+p {
+    font-size: var;
+}

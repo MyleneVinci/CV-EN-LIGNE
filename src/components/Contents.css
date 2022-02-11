@@ -1,16 +1,13 @@
 .Contents {
     display: flex;
     flex-direction: column; 
-    border: 1px solid black;
-    border-radius: 10px;
-    background: rgb(252, 252, 252);
-    padding: 10px;
-    min-width: min-content ;
+    border: 1.5px solid var(--contents-border-color);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px var(--contents-shadow-color);
+    background: var(--contents-bg-color);
+    padding: 5px;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 30px auto 50px auto;
     word-break: break-word;
 }
 
@@ -18,11 +15,24 @@
     margin: 5px;
 }
 
-.Contents h5 {
-    margin-bottom: 15px;
+.Contents h4 {
+    font-size: var(--font-size-h4);
 }
 
-.Contents p, a {
-    margin: 0;
+.Contents h5 {
+    margin-bottom: 15px;
+    font-size: var(--font-size-h5);
+    font-weight:500;
+    color: rgb(110, 110, 110);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+
+.Contents a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
 }
 

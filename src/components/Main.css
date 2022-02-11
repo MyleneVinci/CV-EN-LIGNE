@@ -1,6 +1,6 @@
 .Main-container {
     height: 100%;
-    background:linear-gradient(20deg, white 75%, rgb(176, 210, 245) 30%) ;
+    background:linear-gradient(20deg, white 75%, var(--main-bg-color) 30%) ;
     display: flex;
     flex-direction: column;
 }
@@ -15,10 +15,18 @@
 .title-container {
     margin: 80px;
     text-align: center;
+    font-size: var(--font-size-h1);
+
 }
+
 
 .h3-title, .experiencies-container, .training-container {
     text-align: center;
+}
+
+.h3-title {
+    font-size: var(--font-size-h3);
+
 }
 
 .experiencies-container {
