@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Poppins:wght@100;200;300;400;500&family=Saira+Condensed:wght@100;200;300;400;500&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
-  --main-bg-color: rgb(176, 210, 245) ;
-  --sidebar-bg-color: rgb(220, 231, 243);
+  --main-bg-color:rgb(176, 210, 245) ;
+  --sidebar-bg-color:rgb(220, 231, 243);
+  --contents-bg-color:rgb(252, 252, 252);
+  --contents-border-color:rgb(196, 194, 194);
+  --contents-shadow-color:rgb(196, 194, 194);
+  --font-size-h1: 1.7rem;
+  --font-size-h2: 2rem;
+  --font-size-h3:1.7rem;
+  --font-size-h4:1.3rem;
+  --font-size-h5:1.1em;
+  --font-size-p: 1rem;
 
 }
 

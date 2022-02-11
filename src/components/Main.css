@@ -9,15 +9,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .title-container {
     margin: 80px;
     text-align: center;
+    font-size: var(--font-size-h1);
+
 }
+
 
 .h3-title, .experiencies-container, .training-container {
     text-align: center;
+}
+
+.h3-title {
+    font-size: var(--font-size-h3);
+
 }
 
 .experiencies-container {

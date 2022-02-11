@@ -9,8 +9,8 @@
     border-radius: 50%;
 }
 
-.User-avatar  h2 {
-    margin-top: 20px;
+.h2-title {
+    font-size: var(--font-size-h2);
 }
 
 .User-data {
@@ -19,18 +19,34 @@
     margin: 30px;
 }
 
-.User-data h4 {
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.h4-title {
     text-align: center;
     margin: 8px;
+    font-size: var(--font-size-h4);
 }
+
 .User-data p, a {
     text-align: center;
     margin: 2px;
+    
+}
+
+p {
+    font-size:var(--font-size-p);
 }
 
 .User-data a {
     text-decoration: none;
     color: inherit;
+}
+
+.link {
+    font-style: italic;
 }
 
 
