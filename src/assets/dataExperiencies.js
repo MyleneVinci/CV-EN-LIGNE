@@ -9,7 +9,7 @@ const dataExperiencies = [
         task3: null,
         githubLink:"https://github.com/MyleneVinci/Sainstagram",
         deployedLink:"https://saintstagram.netlify.app/",
-        technologies: "#HTML5, #CSS3, #React.js, API, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #React.js(Hooks), API, Méthodes SCRUM"
 },
 {
     title:"Signataire de rapport d'essais",
