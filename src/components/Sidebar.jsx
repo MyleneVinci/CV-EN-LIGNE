@@ -1,6 +1,6 @@
 import React from 'react';
 import User from './User';
-import {Carousel} from '3d-react-carousal';
+import { Carousel } from '3d-react-carousal';
 import CSS from '../assets/CSS.png';
 import express from '../assets/express.png';
 import Github from '../assets/Github.png';
@@ -24,7 +24,6 @@ const Sidebar = () => {
         <img  className="slide-icon"   src={mysql} alt="mysql-icon" />  ,
         <img  className="slide-icon"  src={Github} alt="github-icon" />   
     ];
-
 
     return (
     <div className='Sidebar-container'>

@@ -3,8 +3,6 @@ import Training from './Training';
 import Experiencies from './Experiencies';
 import './Main.css';
 
-
-
 const Main = () => {
     return (
     <div className='Main-container'>

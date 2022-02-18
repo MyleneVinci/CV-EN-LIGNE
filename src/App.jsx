@@ -9,7 +9,7 @@ function App() {
       <Sidebar />
       <Main />
     </div>
-    );
-  }
+  );
+}
 
   export default App;
