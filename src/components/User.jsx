@@ -1,8 +1,8 @@
 import React from 'react';
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.png';
 import linkedin from '../assets/linkedin.png';
 import Github from '../assets/Github.png';
-import './User.css'
+import './User.css';
 
 
 const User = () => {

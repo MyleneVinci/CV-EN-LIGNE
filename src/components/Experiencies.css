@@ -1,5 +1,11 @@
-.Experiencies {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+@media screen and (min-width: 768px) {
+
+    .Experiencies {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border-right: thick solid black;
+    }
+
 }
+
