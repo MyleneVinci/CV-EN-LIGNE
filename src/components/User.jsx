@@ -9,6 +9,7 @@ const User = () => {
     return (
     <div className='User'>
         <div className="User-container">
+            <i ></i>
             <div className='User-avatar'>
                 <img className='avatar' src={avatar} alt='avatar' />
                 <h2 className='h2-title'>Mylène VINCI</h2>
