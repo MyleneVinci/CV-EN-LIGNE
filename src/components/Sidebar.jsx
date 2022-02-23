@@ -3,7 +3,7 @@ import User from './User';
 import { Carousel } from '3d-react-carousal';
 import CSS from '../assets/CSS.png';
 import express from '../assets/express.png';
-import git from '../assets/git.png';
+import Github from '../assets/Github.png';
 import html from '../assets/html.png';
 import Javascript from '../assets/Javascript.png';
 import mysql from '../assets/mysql.png';
@@ -22,7 +22,7 @@ const Sidebar = () => {
         <img  className="slide-icon"   src={express} alt="express-icon" />  ,
         <img  className="slide-icon"   src={nodejs} alt="nodejs-icon" />  ,
         <img  className="slide-icon"   src={mysql} alt="mysql-icon" />  ,
-        <img  className="slide-icon"  src={git} alt="github-icon" />   
+        <img  className="slide-icon"  src={Github} alt="github-icon" />   
     ];
 
     return (
